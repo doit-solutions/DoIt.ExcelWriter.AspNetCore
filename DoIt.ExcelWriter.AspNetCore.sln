@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoIt.ExcelWriter.AspNetCore", "src\DoIt.ExcelWriter.AspNetCore.csproj", "{1A4D61E6-BD53-49BF-8610-807F1E8F5693}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoIt.ExcelWriter.AspNetCore.Sample", "sample\DoIt.ExcelWriter.AspNetCore.Sample.csproj", "{C67061A5-3F61-4B77-A870-1D2055E4386D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1A4D61E6-BD53-49BF-8610-807F1E8F5693}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A4D61E6-BD53-49BF-8610-807F1E8F5693}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A4D61E6-BD53-49BF-8610-807F1E8F5693}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A4D61E6-BD53-49BF-8610-807F1E8F5693}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C67061A5-3F61-4B77-A870-1D2055E4386D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C67061A5-3F61-4B77-A870-1D2055E4386D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C67061A5-3F61-4B77-A870-1D2055E4386D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C67061A5-3F61-4B77-A870-1D2055E4386D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

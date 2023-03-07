@@ -1,0 +1,22 @@
+{
+    "name": "do IT Excel Writer",
+    "dockerFile": "../Dockerfile",
+    "customizations": {
+        "vscode": {
+            "settings": {
+                "editor.fontFamily": "'Cascadia Code PL', monospace",
+                "editor.fontLigatures": true
+            },
+            "extensions": [
+                "ms-dotnettools.csharp",
+                "editorconfig.editorconfig",
+                "eamodio.gitlens",
+                "dotjoshjohnson.xml"
+            ]
+        }
+    },
+    "appPort": [ 5000, 5001 ],
+    "mounts": [
+        "source=vscode-extensions,target=/root/.vscode-server/extensions,type=volume"
+    ]
+}

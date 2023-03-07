@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <PackageId>DoIt.ExcelWriter.AspNetCore</PackageId>
+    <Authors>David Nordvall</Authors>
+    <Company>do IT Solutions AB</Company>
+    <Description>Extensions for simplifying usage of the "forward only" Excel writer DoIt.ExcelWriter from ASP.NET Core applications</Description>
+    <Copyright>Copyright (c) 2023 do IT Solutions AB</Copyright>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageIcon>Logo.png</PackageIcon>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageProjectUrl>https://github.com/doit-solutions/DoIt.ExcelWriter.AspNetCore</PackageProjectUrl>
+    <PackageTags>excel</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="$(ProjectDir)/../Logo.png" Pack="true" PackagePath="" />
+    <None Include="$(ProjectDir)/../README.md" Pack="true" PackagePath="" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DoIt.ExcelWriter" Version="1.2.2" />
+  </ItemGroup>
+
+</Project>
