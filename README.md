@@ -13,9 +13,9 @@ First of all, you need to add the library to yout ASP.NET Core project
 dotnet add package DoIt.ExcelWriter.AspNetCore
 ```
 
-Note that you do not need any package reference to the `DoIt.ExcelWriter` package &ndash; that package is brought in when `DoIt.ExcelWriter.AspNetCore` is references.
+Note that you do not need any package reference to the `DoIt.ExcelWriter` package &ndash; that package is brought in when `DoIt.ExcelWriter.AspNetCore` is referenced.
 
-Once the package is added to you ASP.NET Core project, a `ExcelContent()` extension method creating an `IActionResult` becomes available for use in your controller actions. This extension will write your generated Excel data to the response body in a memory efficient manner and set the `Content-Type` header to the correct value.
+Once the package is added to you ASP.NET Core project, an `ExcelContent()` extension method returning an `IActionResult` becomes available for use in your controller actions. This extension will write your generated Excel data to the response body in a memory efficient manner and set the `Content-Type` header to the correct value.
 
 You may also pass a file name which will be sent in the `Content-Disposition` HTTP response header.
 

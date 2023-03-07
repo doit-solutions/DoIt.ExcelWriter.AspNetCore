@@ -1,5 +1,5 @@
 {
-    "name": "do IT Excel Writer",
+    "name": "do IT Excel Writer ASP.NET Core extensions",
     "dockerFile": "../Dockerfile",
     "customizations": {
         "vscode": {
